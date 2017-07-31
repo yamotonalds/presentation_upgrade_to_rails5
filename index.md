@@ -8,7 +8,15 @@
 
 少し前にRailsを4.2系から5.0系にアップグレードしたときにどんなことをしたか、どんな問題が発生したか、について
 
-※ 使ってるgemが対応してなくて5.1系には上げられなかった
+##
+
+使ってるgemが対応してなくて5.1系には上げられなかった
+
+(C◯◯P◯◯K◯◯)
+
+##
+
+最低限のgem更新とwarning対応だけ行った
 
 
 # rails 4.2.8 -> 5.0.4
@@ -243,6 +251,10 @@ class Character < Sengiri::Model::Base
     male:   0,
     female: 1
   }
+
+  def foo
+    ...
+  end
 end
 ```
 
@@ -276,6 +288,10 @@ class Character < Sengiri::Model::Base
     male:   0,
     female: 1
   }
+
+  def foo
+    ...
+  end
 end
 ```
 
